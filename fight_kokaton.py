@@ -163,7 +163,7 @@ def main():
     bombs = [Bomb((255, 0, 0), 10) for _ in range(NUM_OF_BOMBS)]
     for i in range(NUM_OF_BOMBS):
         bomb = Bomb((255, 0, 0), 10)
-        bombs.append(bomb
+        bombs.append(bomb)
 
     beam = None  # ゲーム初期化時にはビームは存在しない
     score =Score()
